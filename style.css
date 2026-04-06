@@ -19,7 +19,7 @@ body {
 h3 {
     text-align: center;
     margin-bottom: 30px;
-    color:white;
+    color: white;
 }
 
 /* Container for forms */
@@ -41,13 +41,14 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 15px; /* spacing between form elements */
+    gap: 15px;
+    /* spacing between form elements */
 }
 
 /* Show/Hide forms */
 .form_box_active {
     display: flex;
-    
+
 }
 
 .form_box_none {
@@ -58,7 +59,7 @@ h3 {
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #fefbff;
+    color: #000000;
 }
 
 /* Labels */
@@ -71,7 +72,8 @@ label {
 }
 
 /* Inputs & Select */
-input, select {
+input,
+select {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -80,7 +82,14 @@ input, select {
     border: 1px solid #000;
     border-radius: 6px;
     font-size: 14px;
-    
+
+}
+
+h4 {
+    margin-top: 15px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-decoration: rgb(10, 1, 1);
 }
 
 /* Buttons */
@@ -99,7 +108,7 @@ button {
 
 button:hover {
     background-color: #8867c5;
-    color:#1c092e;
+    color: #1c092e;
 }
 
 /* Links */
@@ -113,12 +122,12 @@ a:hover {
 }
 
 /* Paragraphs inside forms */
-p {
+/* p {
     margin-top: 15px;
     text-align: center;
-    color:white;
+    color: white;
     text-decoration: white;
-}
+} */
 
 /* Error messages */
 .error-message {
